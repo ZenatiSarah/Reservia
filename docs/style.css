@@ -163,15 +163,7 @@ i {
     margin-left: 15px;
     align-items: center; 
     font-weight: bold;
-}/*
-#cercle{
-    width: 22px;
-    height: 25px;
-     justify-content: left;
-    border-radius: 15px;
-    background:#deecff;
-    align-items: center;
-}*/
+}
 .items{
     text-decoration: none;
     margin: 0px 10px 0px 10px;
