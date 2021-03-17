@@ -72,7 +72,7 @@ nav a{
 
 nav a:hover{
     color:#0065FC;
-    border-bottom: 3px solid #61a0ffc2;
+    border-top: 3px solid #61a0ffc2;
     padding-top: 25px;
 }
 
