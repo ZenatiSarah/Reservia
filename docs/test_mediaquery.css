@@ -240,6 +240,17 @@
         padding-top: 0;
         height: 85px;
         margin-bottom: 2rem;
+        margin-left: 10%;
+    }
+    nav a {
+        border-bottom: solid #d6d6d6;
+        width: 40%;
+    }
+    nav a:hover{
+        color:#0065FC;
+        border-bottom: 3px solid #61a0ffc2;
+        border-top: hidden;
+        padding-top: 25px;
     }
     .inscription{
         margin-left: 100%;
@@ -284,7 +295,7 @@
         padding-left: 1rem;
     }
     .fa-chart-line {
-        margin-left: 25px;
+        margin-left: 5rem;
     }
     .container_hebergements{
         background-color: #ffffff;
@@ -443,6 +454,7 @@
     }
     .article{
         margin: 1rem 1rem 0 1rem;
+        width: 100%;
     }
 }
 

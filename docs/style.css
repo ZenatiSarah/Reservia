@@ -67,11 +67,12 @@ nav a{
     text-decoration: none;
     color: #000000;
     font-size: 15px;
+    
 }
 
 nav a:hover{
     color:#0065FC;
-    border-bottom: 3px solid #61a0ffc2;
+    border-top: 3px solid #61a0ffc2;
     padding-top: 25px;
 }
 
@@ -185,6 +186,7 @@ i {
     padding: 0.5rem;
     border-radius: 100px; 
 }
+
 .border_items:hover{
     color:#0065FC;
     border: 3px solid #61a0ffc2;
@@ -373,13 +375,24 @@ i {
 .etoiles_pop{
     margin: 20px  0px  0px 0px;
 }
-.fa-star:before {
+.fas.fa-star:before {
     content: "\f005";
     color: #0065fc;
+    border: gray;
     font-size: 13px;
     
 }
-
+.far.fa-star:before{
+    
+    color: gray;
+    border: gray;
+    font-size: 13px;
+}
+.fas.fa-star.gray:before{
+    color: #d6d6d6;
+    border: #d6d6d6;
+    font-size: 13px;
+}
 
 /*Les plus populaires*/
 
@@ -754,6 +767,7 @@ i {
 h3{
     align-content: flex-start;
     margin-left: 0.3rem;
+    font-size: 16px;
 }
 .liens{
     display: flex;
