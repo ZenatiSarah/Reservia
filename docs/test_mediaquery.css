@@ -114,7 +114,8 @@
         display: initial;
     }
     .fa-search{
-       content-visibility: hidden;
+       /*content-visibility: hidden;*/
+       display: none;
     }
     .p-titre {
         margin-left: 0px;
