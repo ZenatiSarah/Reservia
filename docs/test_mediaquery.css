@@ -2,8 +2,8 @@
     span.fa-search_button1{
         display: initial;
     }
-    .fa-search{
-       content-visibility: hidden;
+    .fas.fa-search:before{
+       display: none;
     }
     .les-plus-populaires{
         margin:0;
@@ -113,8 +113,7 @@
     span.fa-search_button1{
         display: initial;
     }
-    .fa-search{
-       /*content-visibility: hidden;*/
+    .fas.fa-search:before{
        display: none;
     }
     .p-titre {
